@@ -1,6 +1,6 @@
 # DelphiCornerRound
 
-DelphiCornerRound Library
+Delphi Corner Round Library
 
 Hi!
 
