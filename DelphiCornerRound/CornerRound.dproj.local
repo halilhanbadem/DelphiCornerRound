@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/06/17 03:26:12.000.523,C:\Users\halil\Desktop\Lib\Project1.dproj=C:\Users\halil\OneDrive\Belgeler\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2017/06/17 14:38:49.000.329,C:\Users\halil\Desktop\Lib\Design.dproj=C:\Users\halil\Desktop\Lib\Project1.dproj</Transaction>
+    <Transaction>2017/06/18 19:10:50.142,C:\Users\halil\Desktop\Lib\CornerRound.dproj=C:\Users\halil\Desktop\Lib\Design.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
