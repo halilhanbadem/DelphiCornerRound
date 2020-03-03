@@ -1,10 +1,6 @@
 library CornerRound;
 
-{Author: Halil Han Badem
- Company: Bi'Coder
- Date: 17/06/2017 03:24
- Country: Turkey
-      Note: Thank you so much, my family. }
+{Author: Halil Han Badem}
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
@@ -20,11 +16,11 @@ var
 begin
   with control do
   begin
-    R := ClientRect;  /// R değişkenini ClientRect olarak tanmılıyoruz.
-    Rgn := CreateRoundRectRgn(R.Left, R.Top, R.Right, R.Bottom, 20, 20); //20 değerliği kıvırma derecesini ayalar.
-    Perform(EM_GETRECT, 0, lParam(@r)); ///Taşınabilirlik ayarlanıyor.
+    R := ClientRect;  /// R deÄŸiÅŸkenini ClientRect olarak tanmÄ±lÄ±yoruz.
+    Rgn := CreateRoundRectRgn(R.Left, R.Top, R.Right, R.Bottom, 20, 20); //20 deÄŸerliÄŸi kÄ±vÄ±rma derecesini ayalar.
+    Perform(EM_GETRECT, 0, lParam(@r)); ///TaÅŸÄ±nabilirlik ayarlanÄ±yor.
     InflateRect(r, -4, -4);   /// kesilecek alanlar belirleniyor
-    SetWindowRgn(Handle, RGN, True);  ///Windows penceresine gerekli komutları RGN değişkeni ile gönderiyoruz.
+    SetWindowRgn(Handle, RGN, True);  ///Windows penceresine gerekli komutlarÄ± RGN deÄŸiÅŸkeni ile gÃ¶nderiyoruz.
     Invalidate;
   end;
 end;
